@@ -1,0 +1,310 @@
+/* */
+body{
+    font-family: "Raleway", sans-serif, serif;
+    color: black;
+    background-color: #F1D4AF;
+    margin: 0;
+}
+
+div{
+    background: #F1D4AF;
+    font-family: "Raleway", sans-serif, serif;
+    width: 100%;
+    margin: 0 auto; 
+    font-weight: 500;
+    
+    
+}
+
+ul{
+    font-family: "Raleway", sans-serif, serif;
+    list-style-type: square;
+  
+    
+}
+
+
+.Menu a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px dashed #ddd;
+	box-shadow: 0 0 0 3px #F0B49E, 0 0 0 10px #73626E, 0 0 2px 10px #eee;
+    margin: 0 0 0 10px;
+    
+    
+    
+}
+ 
+
+.Menu a:hover {
+    background-color: #F0B49E;
+    width: 120px;
+    padding: 4px;
+    color: #73626E;
+    display: block;
+    margin: 0 0 0 10px;
+    
+}
+
+ul.contact{
+    list-style-type: none;
+}
+    
+
+
+
+h1{
+    background: #B38184;
+    color: floralwhite;
+    font-family: 'Raleway';
+    font-weight:100;   
+    font-size: 36px;
+    text-align: center;
+    
+    
+    
+}
+
+div#contactme{
+    background: #73626E;
+    font-family: "Raleway";
+    margin: 0 0 0 0;
+    width: 100%;
+    font-weight:100;
+    padding:0;
+    text-align: right;
+   
+}
+
+
+h1#mynametitle{
+    
+    font-size: 60px;
+    text-transform: uppercase;
+    display: inline;
+    padding-right:2%;
+    background: #73626E;
+    
+    font-family: 'Impact';
+    color: floralwhite;
+    text-align: right;
+    
+    
+}
+
+div .Menu{
+    margin: 0 0 0 0;
+    width: 100%;  
+    
+    
+}
+
+.mainMenu li{
+    font-family: "Raleway", sans-serif, serif;
+    font-size: 1em;
+    list-style-type: none;
+    margin-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    background-color: #73626E;
+     
+    width: inherit;
+    line-height: 2;
+    
+    
+}
+
+
+article{
+    width: 90%;
+    float: center;
+    margin: 0 auto;
+    background-color: #F4EAD5;
+    padding: 2%;
+    margin-top: 2%;
+    box-shadow: 0 0 0 3px #F0B49E, 0 0 0 5px #ddd, 0 0 0 10px #73626E, 0 0 2px 10px #eee;
+}
+
+#emailme{
+    width: 50%;
+    border: 1px dashed #ddd;
+	box-shadow: 0 0 0 3px #F0B49E, 0 0 0 5px #ddd, 0 0 0 10px #73626E, 0 0 2px 10px #eee;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    margin: 10px 0 0;
+    padding: 10px 0;
+    background: #413E4A;
+}
+
+footer h5 {
+    color: #ccc;
+}
+
+
+div #icons a img {
+    width: 4%;
+    opacity: 1;
+    float: right;
+    padding-right: 1%;
+    display: block;
+    position: static;
+}
+
+div #icons a:hover img {
+    opacity: 0.4;
+    
+}
+
+.clearfix{
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+    
+}
+.clearfix:after {
+
+    content: ".";
+
+    display: block;
+
+    
+
+    clear: both;
+
+    visibility: hidden;
+
+}
+
+div #sidebar{
+    float: right;
+    border: 1px dashed #ddd;
+	box-shadow: 0 0 0 3px #F0B49E, 0 0 0 5px #ddd, 0 0 0 10px #73626E, 0 0 2px 10px #eee;
+    width: 40%;
+    
+    
+}
+
+#emailmepls{
+    float: left;
+    width: 100%;
+    padding: 0;
+    
+}
+
+div.container{
+    color: floralwhite;
+    background-color: #413E4A;
+    width: 50%;
+    text-align: center;
+    
+}
+
+div.contactfooter{
+    color: floralwhite;
+    background-color: #413E4A;
+    line-height: 1;
+    width: 35%;
+    
+}
+
+h2{
+    color: black;
+    
+    font-family: 'Raleway';
+    font-weight:500;   
+    font-size: 1.5rem;
+    text-align: left;
+}
+h5{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 0;
+
+}
+div#indexbody{
+    width: 90%;
+    margin: 0 auto;   
+    
+    
+}
+
+ul#contactfooterlist > li{
+    list-style-type: none;
+    text-align: left;
+}
+
+div#myInterest, div#myExp, div#myProj, div#myEdu{
+    background-color: #F4EAD5;
+    padding: 2%;
+    margin-top: 2%;
+    box-shadow: 0 0 0 3px #F0B49E, 0 0 0 5px #ddd, 0 0 0 10px #73626E, 0 0 2px 10px #eee;
+    margin-bottom: 2%;
+    width: 80%; 
+    font-family: "Raleway", sans-serif, serif;
+    text-align: left;
+    
+}
+div#mySkills{
+     background-color: #F4EAD5;
+    padding: 2%;
+    margin-top: 2%;
+    box-shadow: 0 0 0 3px #F0B49E, 0 0 0 5px #ddd, 0 0 0 10px #73626E, 0 0 2px 10px #eee;
+    margin-bottom: 2%;
+    width: 90%; 
+    font-family: "Raleway", sans-serif, serif;
+    text-align: left;
+}
+main#emailme{
+    background-color: #F4EAD5;
+    padding: 2%;
+    margin-top: 2%;
+    box-shadow: 0 0 0 3px #F0B49E, 0 0 0 5px #ddd, 0 0 0 10px #73626E, 0 0 2px 10px #eee;
+    margin-bottom: 2%;
+    width: 50%; 
+    text-align: left;
+
+}
+input{
+    width: 60%;
+    font-size: 1.2rem;
+    
+}
+
+.button{
+    width: 10%;
+    background-color: #774F38;
+    color: floralwhite;
+    box-shadow: 0 0 0 3px #F0B49E;
+    border: 1px dashed #ddd;
+    font-size: 1.2rem;
+    float: right;
+    
+}
+
+.button:hover{
+    background-color: #E08E79;
+    color: black;
+   
+}
+
+label{
+    text-align: left;
+}
+
+
+
+   
